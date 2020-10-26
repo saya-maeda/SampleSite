@@ -15,7 +15,7 @@
 header {
    position:relative;
    height: 8rem;
-   background: #ffffe0;
+   background: #ffb6c1;
    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
  }
 
@@ -23,13 +23,13 @@ header {
     position: absolute;
     top: 3rem;
     left: 3rem;
-    font-size: 2rem;
-    color: #008080;
+    font-size: 2.5rem;
+    color: #db7093;
   }
 
 nav {
   padding: 1rem 3rem ;
-  background: #344;
+  background:#fffacd;
 }
 
   nav ul{
@@ -42,7 +42,7 @@ nav {
   }
 
   nav ul li a {
-    color: #008080;
+    color: #d2b48c;
   }
 
 main{
@@ -74,4 +74,24 @@ footer {
   text-align: center;
   background: #3;
   color: white;
+}
+
+article img{
+    display: block;
+    width:75%;     /* 親要素の 75%幅になります */
+}
+
+.youtube {
+     position: relative;
+     padding-bottom: 56.25%; /* 16:9の場合*/
+     height: 0;
+     overflow: hidden;
+}
+
+.youtube iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
 }
